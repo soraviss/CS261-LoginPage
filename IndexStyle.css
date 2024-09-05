@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1vw;
 }
 
 
 html {
     background-image: url(Metetials/Background.jpg);
     background-size: cover;
+    font-size: 1vw;
     
 }
 
@@ -28,26 +28,52 @@ html {
         }
 
 
+    /* ------- Title ------- */
     .TitleForm {
         display: flex;
         justify-content: center;
     }
         .TitleForm h1 {
-            font-size: 2rem;
+            font-size: 3rem;
         }
 
     
-    .Form {
+    /* ------- FormContainer ------- */
+    .FormContainer {
         display: flex;
-        width: 40vw;
+        width: 30rem;
+        height: 20vw;
         margin: auto;
-        justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: rgb(63, 127, 184);
+        background-color: rgb(134, 134, 134);
         opacity: 70%;
+        margin-top: 1rem;
     }
-        .Form h2 {
-            font-size: 1.5rem;
-            margin: 1rem;
+        .FormContainer h2 {
+            font-size: 2rem;
+            margin: 2rem 0 0 0;
         }
+        form {
+            margin: 2rem;
+        }
+            form img {
+                width: 1.5rem;
+                opacity: 100%;
+            }
+            form input {
+                width: 18rem;
+                height: 2.5rem;
+                font-size: 1rem;
+                background: transparent;
+            }
+            form button {
+                background-color: rgb(201, 3, 3);
+                padding: 0.5rem 10rem;
+                margin: 1rem 0;
+                opacity: 100%;
+            }
+            form table {
+                border-spacing: 0.5rem 0.5rem;
+            }
+  
