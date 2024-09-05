@@ -1,0 +1,53 @@
+* {
+    border: red solid px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1vw;
+}
+
+
+html {
+    background-image: url(Metetials/Background.jpg);
+    background-size: cover;
+    
+}
+
+
+.MainPage {
+    width: 100vw;
+}
+    .LogoContainer {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+        .LogoContainer img {
+            width: 9vw;
+            margin: 4rem 0 0 0;
+        }
+
+
+    .TitleForm {
+        display: flex;
+        justify-content: center;
+    }
+        .TitleForm h1 {
+            font-size: 2rem;
+        }
+
+    
+    .Form {
+        display: flex;
+        width: 40vw;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(63, 127, 184);
+        opacity: 70%;
+    }
+        .Form h2 {
+            font-size: 1.5rem;
+            margin: 1rem;
+        }
