@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+
 }
 
 
@@ -36,6 +40,7 @@ html {
     }
         .TitleForm h1 {
             font-size: 3rem;
+            font-weight: 500;
         }
 
     
@@ -75,7 +80,7 @@ html {
             form button {
                 background-color: rgb(201, 3, 3);
                 padding: 0.7rem 10rem;
-                margin: 0rem 0;
+                margin: -0.5rem 0;
                 font-weight: bold;
             }
             .InputContainer {
