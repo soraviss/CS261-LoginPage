@@ -11,7 +11,7 @@
 
 
 html {
-    background-image: url(Metetials/TUWallpaper-Background.jpg);
+    background-image: url('../img/TUWallpaper-Background.jpg');
     background-size: 100% 100%;
     font-size: 1vw;
     
@@ -93,3 +93,6 @@ html {
 
 
 /* -------Media Query ------- */
+@media (max-width: 1490px) { 
+    
+}
