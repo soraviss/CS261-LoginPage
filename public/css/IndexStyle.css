@@ -93,6 +93,19 @@ html {
             }
 
 
+
+.message-con {
+    display: flex;
+    justify-content: center;
+}     
+    #message {
+        width: 30rem;
+        background-color: rgba(218, 218, 218, 0.7);
+
+
+    }
+
+
 /* -------Media Query ------- */
 @media (max-width: 1490px) { 
     
